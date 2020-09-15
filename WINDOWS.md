@@ -8,10 +8,7 @@ Table of Contents:
 - Windows Terminal
 - Fancy your Terminal
 
-
-## Prerequisites
-
-Windows 10, version 2004 or higher. You will need to check that your computer has all the latest updates. This includes 'optional' updates. Keep checking after updating until it says that you have no more updates left to install.
+If you run into any issues, contact me and I will help
 
 
 ## Visual Studio Code
