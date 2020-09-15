@@ -11,24 +11,6 @@ Table of Contents:
 If you run into any issues, contact me and I will help
 
 
-## Visual Studio Code
-
-I use Visual Studio Code because it has a built-in terminal and lots of really amazing extensions.
-
-1. Download [Visual Studio Code](https://code.visualstudio.com/download) 
-2. Download and install useful extensions:
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Sublime Text Keymapping](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-- [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
-- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
-- [My favorite theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode)
-- [My 2nd favorite theme](https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized)
-
-Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Click 'edit in settings.json' and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. Save the file and close it.
-
-Press `Ctrl K` then `Ctrl T` and it will open a list of your installed themes. Cycle through them with the arrow keys and choose one that you like!
-
-
 ## Git and GitHub
 
 Download and install git bash for windows: https://gitforwindows.org/
@@ -118,3 +100,29 @@ Set-Theme Robbyrussell
 
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
+
+
+## Visual Studio Code
+
+I use Visual Studio Code because it has a built-in terminal and lots of really amazing extensions.
+
+1. Download [Visual Studio Code](https://code.visualstudio.com/download) 
+2. Download and install useful extensions:
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Sublime Text Keymapping](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+- [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
+- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+- [My favorite theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode)
+- [My 2nd favorite theme](https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized)
+
+Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Click 'edit in settings.json' and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. Save the file and close it.
+On the bottom of the window there is a 'Watch Sass' button, whenever you are coding in sass you can compile it live by clicking on that button.
+
+Press `Ctrl K` then `Ctrl T` and it will open a list of your installed themes. Cycle through them with the arrow keys and choose one that you like!
+
+If you click on new terminal, a powershell terminal will appear with the same styling that you set up. Cool feature right? You can push to github directly from there!
+
+
+You are now ready to code! You can click on the leftmost icons to travel between 'files', 'search', 'source control' (this is git! you can view your changes here), 'run' (you can run scripts etc, never used it personally), and 'extensions'.
+
+
