@@ -17,6 +17,7 @@ I personally keep all the default settings, except I uncheck 'Git GUI' because I
 
 Run Powershell **as administrator**, type the following commands.
 
+
 Check you have git and OpenSHH for windows correctly installed:
 ```powershell
 git --version
@@ -68,7 +69,7 @@ Save the file and close.
 
 We will use oh-my-posh! It's a windows version of oh-my-zsh, this will make your windows terminal look like linux zsh terminal!
 
-Open windows terminal as administator
+Open windows terminal **as administator**.
 
 Run these commands:
 ```powershell
