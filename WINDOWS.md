@@ -11,7 +11,7 @@ Table of Contents:
 
 ## Prerequisites
 
-Windows 10, version 2004 or higher. You will need to check that your computer has all the latest updates. This includes 'optional' updates.
+Windows 10, version 2004 or higher. You will need to check that your computer has all the latest updates. This includes 'optional' updates. Keep checking after updating until it says that you have no more updates left to install.
 
 
 ## Visual Studio Code
