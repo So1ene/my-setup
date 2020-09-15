@@ -79,6 +79,7 @@ Download and install Windows Terminal from the Microsoft Store
 
 Open it then click on the arrow next to the tab and click on "Settings". Find the line that contains 'powershell.exe' and add `-noLogo` so that the line looks something like this: `"commandline": "powershell.exe -noLogo",`
 You can also change the starting directory if you like. I set mine to my work folder so that it is much easier. `"startingDirectory": "C:/whatever/you/want",`
+Save the file and close.
 
 
 ## Fancy your Terminal
