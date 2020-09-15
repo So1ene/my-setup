@@ -33,7 +33,7 @@ I use Visual Studio Code because it has a built-in terminal and lots of really a
 Download and install git bash for windows: https://gitforwindows.org/
 I personally keep all the default settings, except I uncheck 'Git GUI' because I never use it, I only use git via the command line.
 
-Run Powershell as administrator, type the following commands.
+Run Powershell **as administrator**, type the following commands.
 
 Check you have git and OpenSHH for windows correctly installed:
 ```powershell
@@ -78,8 +78,7 @@ git clone <paste SSH KEY>
 Download and install Windows Terminal from the Microsoft Store
 
 Open it then click on the arrow next to the tab and click on "Settings". Find the line that contains 'powershell.exe' and add `-noLogo` so that the line looks something like this: `"commandline": "powershell.exe -noLogo",`
-
-You can also change the starting directory if you like. I set mine to my work folder so that it is much easier.
+You can also change the starting directory if you like. I set mine to my work folder so that it is much easier. `"startingDirectory": "C:/whatever/you/want",`
 
 
 ## Fancy your Terminal
