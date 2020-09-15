@@ -2,13 +2,12 @@
 
 Table of Contents:
 
-- Prerequisites
-- Visual Studio Code
 - Git and GitHub
 - Windows Terminal
 - Fancy your Terminal
+- Visual Studio Code
 
-If you run into any issues, contact me and I will help
+If you run into any issues, update to the latest version of windows, including 'optional' updates. If you still have issues, contact me and I will help!
 
 
 ## Git and GitHub
