@@ -54,6 +54,7 @@ You can now test it by cloning a repository, go to any github repo and copy the 
 ```powershell
 git clone <paste SSH KEY>
 ```
+Here are some useful git commands if you ever feel stuck: https://dzone.com/articles/top-20-git-commands-with-examples
 
 
 ## Windows Terminal
