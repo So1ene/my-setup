@@ -96,6 +96,7 @@ A notepad should open up. Add these lines to the notepad and save:
 Import-Module posh-git -DisableNameChecking
 Import-Module oh-my-posh -DisableNameChecking
 Set-Theme Robbyrussell
+clear
 ```
 
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
