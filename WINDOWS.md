@@ -196,7 +196,7 @@ node_modules/
 
 - Create and download a bare bones theme from [underscores](https://underscores.me). Call it the name of your project. Don't forget to click advanced options and check `_sassify` and fill out the information.
 
-- Extract the file and put the theme into "project-name/wp-content/themes" folder. You can delete all the other default themes that come with wordpress if you want.
+- Extract the file and put it into "project-name/wp-content/themes" folder. You can delete all the other default themes that come with wordpress.
 
 - Open your web browser and go to `localhost/project-name/wp-admin` (whatever you called your folder)
 
