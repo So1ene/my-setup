@@ -153,9 +153,9 @@ Creating a new project:
 
 - Download and extract the latest WordPress files from https://wordpress.org/download/
 
-- Place the contents of the wordpress file in a new folder that you call whatever you want, example: 'project-name'
+- Place the contents of the wordpress file in a new folder that you call whatever you want, example: 'project-name'. This is also your git repository, so make it now if you want.
 
-- Place that folder in WAMP 'www' folder (Mine is at `C:\wamp64\www`) so it will be `C:\wamp64\www\project-name` This is also your github repo, so make it now if you want
+- Place that folder in WAMP 'www' folder (Mine is at `C:\wamp64\www`) so it will be `C:\wamp64\www\project-name` 
 
 - Create and download a bare bones theme from [underscores](https://underscores.me). Call it the name of your project. Don't forget to click advanced options and check `_sassify` and fill out the information.
 
