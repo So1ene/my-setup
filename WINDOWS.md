@@ -161,7 +161,7 @@ Creating a new project:
 
 - Extract the file and put it into "project-name/wp-content/themes" folder. You can delete all the other default themes that come with wordpress.
 
-- Open your web browser and go to `localhost/project-name/wp-admin` (whatever you called your folder)
+- Open your web browser and go to `localhost/project-name/wp-admin` (replace project-name with whatever you called your folder)
 
 - Launch wordpress, select english, select the database you created earlier
 
