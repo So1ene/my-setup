@@ -223,4 +223,3 @@ For example, go to localhost/project-name/wp-admin and click on 'Pages' and add 
 
 You can also edit your header.php file, and mess around with everything else. Don't forget to compile your scss to a style.css file in the root of the theme folder (so you want it to be in  `C:\wamp64\www\project-name\wp-content\themes\project-name\style.css` Use the VSCode Extention "live sass compiler' as I explained above. Good luck!
 
-- 
