@@ -188,7 +188,10 @@ node_modules/
 *.sqlite
 
 # ignore sass compiler files
-wp-content/themes/*/style.css.map
+*.map
+
+# ignore weird ._ files from macbooks
+._*
 ```
 
 - Create and download a bare bones theme from [underscores](https://underscores.me). Call it the name of your project. Don't forget to click advanced options and check `_sassify` and fill out the information.
