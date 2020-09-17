@@ -69,7 +69,7 @@ Save the file and close.
 
 ## Fancy your Terminal
 
-We will use oh-my-posh! It's a windows version of oh-my-zsh, this will make your windows terminal look like linux zsh terminal!
+I use oh-my-posh! It's a windows version of oh-my-zsh, this will make your windows terminal look like linux zsh terminal!
 
 Open windows terminal **as administator**.
 
