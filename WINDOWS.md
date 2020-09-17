@@ -6,6 +6,7 @@ Table of Contents:
 - Windows Terminal
 - Fancy your Terminal
 - Visual Studio Code
+- Wordpress
 
 If you run into any issues, update to the latest version of windows, including 'optional' updates. If you still have issues, contact me!
 
@@ -140,3 +141,86 @@ If you click on new terminal, a powershell terminal will appear with the same st
 You are now ready to code! You can click on the leftmost icons to travel between 'files', 'search', 'source control' (this is git! you can view your changes here), 'run' (you can run scripts etc, never used it personally), and 'extensions'.
 
 
+## Wordpress
+
+Creating a new project:
+
+- Download and install [WAMP](https://sourceforge.net/projects/wampserver/files/)
+
+- Run WAMP, then go to http://localhost/phpmyadmin  make a user with username root, no password
+
+- Log in and create a new database with the name of your project
+
+- Download and extract the latest WordPress files from https://wordpress.org/download/
+
+- Place the contents of the wordpress file in a new folder that you call whatever you want, example: 'project-name'
+
+- Place that folder in WAMP 'www' folder (Mine is at `C:\wamp64\www`) so it will be `C:\wamp64\www\project-name`
+
+- IMPORTANT! Create a .gitignore file in the 'project-name' folder, and put this inside the .gitingore file:
+
+```
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+!xd-mockups/
+
+# ignore these plugins
+wp-content/plugins/*
+
+# ignore specific themes
+wp-content/themes/twenty*/
+wp-content/themes/index.php
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore sass compiler files
+wp-content/themes/*/style.css.map
+```
+
+- Create and download a bare bones theme from [underscores](https://underscores.me). Call it the name of your project. Don't forget to click advanced options and check `_sassify` and fill out the information.
+
+- Extract the file and put the theme into "project-name/wp-content/themes" folder. You can delete all the other default themes that come with wordpress if you want.
+
+- Open your web browser and go to `localhost/project-name/wp-admin` (whatever you called your folder)
+
+- Launch wordpress, select english, select the database you created earlier
+
+- Go into appearances, themes. Select the theme you created.
+
+Now every page in the 'template-pages' folder in that theme will show up as a template page when you create a new 'page' in wordpress. 
+For example, you can make a file called homepage.php: `C:\wamp64\www\project-name\wp-content\themes\project-name\template-pages\homepage.php`
+then at the top of the file you can put this: 
+
+```
+<?php
+
+/*
+Template Name: homepage
+Template Post Type: page
+*/
+
+get_header("");
+
+?>
+```
+
+And the page will show up as a template page with the name 'homepage' when you create a page in wordpress. 
+For example, go to localhost/project-name/wp-admin and click on 'Pages' and add a new page, on the right click on the Templates dropdown and you should find the template that you just created! Yay!
+
+You can also edit your header.php file, and mess around with everything else. Don't forget to compile your scss to a style.css file in the root of the theme folder (so you want it to be in  `C:\wamp64\www\project-name\wp-content\themes\project-name\style.css` Use the VSCode Extention "live sass compiler' as I explained above. Good luck!
+
+- 
