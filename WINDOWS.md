@@ -159,7 +159,7 @@ Creating a new project:
 
 - Create and download a bare bones theme from [underscores](https://underscores.me). Call it the name of your project. Don't forget to click advanced options and check `_sassify` and fill out the information.
 
-- Extract the file and put it into "project-name/wp-content/themes" folder. You can delete all the other default themes that come with wordpress. This themes folder is what you will want to push to github, so add a .gitignore file to  `C:\wamp64\www\project-name` that will ignore all the other folders and files except for the themes file (ask us or search google for a wordpress .gitignore file)
+- Extract the file and put it into "project-name/wp-content/themes" folder. Delete all the other default themes that come with wordpress. This themes folder is what you will want to push to github, so add a .gitignore file to  `C:\wamp64\www\project-name` that will ignore all the other folders and files except for the themes file (ask us or search google for a wordpress .gitignore file)
 
 - Open your web browser and go to `localhost/project-name/wp-admin` (replace project-name with whatever you called your folder)
 
