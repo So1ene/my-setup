@@ -155,7 +155,7 @@ Creating a new project:
 
 - Place the contents of the wordpress file in a new folder that you call whatever you want, example: 'project-name'
 
-- Place that folder in WAMP 'www' folder (Mine is at `C:\wamp64\www`) so it will be `C:\wamp64\www\project-name`
+- Place that folder in WAMP 'www' folder (Mine is at `C:\wamp64\www`) so it will be `C:\wamp64\www\project-name` This is also your github repo, so make it now if you want
 
 - IMPORTANT! Create a .gitignore file in the 'project-name' folder, and put this inside the .gitingore file:
 
