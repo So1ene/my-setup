@@ -10,12 +10,12 @@ Choose an operating system:
       </a>
     </td> -->
     <td>
-      <a href="UBUNTU.md">
+      <a href="linux.md">
         <img src="images/linux.png" alt="Ubuntu" />
       </a>
     </td>
     <td>
-      <a href="WINDOWS.md">
+      <a href="windows.md">
         <img src="images/windows.png" alt="Windows">
       </a>
     </td>
