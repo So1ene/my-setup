@@ -47,7 +47,7 @@ For example, go to localhost/project-name/wp-admin and click on 'Pages' and add 
 
 - Go to dashboard, click on 'Set up your homepage' and set it to static page
 
-You can also edit your header.php file, footer.php and mess around with everything else in general. Don't forget to compile your scss to a style.css file in the root of the theme folder (so you want it to be in  `C:\wamp64\www\project-name\wp-content\themes\project-name\style.css` Use the VSCode Extention "live sass compiler' as I explained in my setup readme. Good luck!
+You can also edit your header.php file, footer.php and mess around with everything else in general. Don't forget to compile your scss to a style.css file in the root of the theme folder (so you want it to be in  `C:\wamp64\www\project-name\wp-content\themes\project-name\style.css` Use the VSCode Extention "live sass compiler' as I explained in my <a href="windows.md">setup</a> readme. Good luck!
 
 **Remember, everything you change in /wp-admin is only changed in your local machine, try to keep those changes minimal (ie: only to add a page)
 What you want to change the most is your theme :)**
