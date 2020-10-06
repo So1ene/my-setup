@@ -132,6 +132,9 @@ We also want browser support, so look for `liveSassCompile.settings.autoprefix` 
 Save the file and close it.
 On the bottom of the window there is a 'Watch Sass' button, whenever you are coding in sass/scss you can compile it live by clicking on that button.
 
+Press `Ctrl ,` to go to settings, type 'php' in the search bar and look for `PHP › Validate: Executable Path` and click'edit in settings.json'.
+Add in the path to php.exe (mine is `C:/wamp64/bin/php/php7.4.9/php.exe`)
+
 Press `Ctrl K` then `Ctrl T` and it will open a list of your installed themes. Cycle through them with the arrow keys and choose one that you like!
 
 If you click on new terminal, a powershell terminal will appear with the same styling that you set up. Cool feature right? You can push to github directly from there!
