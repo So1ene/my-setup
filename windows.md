@@ -113,7 +113,7 @@ I use Visual Studio Code because it has a built-in terminal and lots of really a
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Sublime Text Keymapping](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 - [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
-- [Sass Lint](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 - [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [CSS Class Name Completion](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
