@@ -43,10 +43,8 @@ Generate a git ssh keygen to link to your github
 ssh-keygen -t ed25519 -C "<comment>"
 ```
 
-It might ask you to enter which file to save the keygen in. DO NOT TYPE ANYTHING, just press enter, and it will generate a file for you
-```powershell
-C:\Users\(your user)/.ssh/id_ed25519
-```
+It might ask you to enter which file to save the keygen in. DO NOT TYPE ANYTHING, just press enter, and it will generate a file for you.
+
 It might ask you to make a password for the file, I personally leave it blank.
 
 It should have generated a file `C:\Users\(your user)/.ssh/id_ed25519.pub`. Navigate to it, open it with notepad or something and copy the keygen from the generated file.
@@ -57,7 +55,7 @@ Call the title whatever you want.
 You can now test it by cloning a repository, go to any github repo and copy the SSH of the repo. (For example, this one is `git@github.com:So1ene/my-setup.git`)
 Navigate to your desktop 
 ```powershell
-cd C:\Users\(your user)/Desktop
+cd %UserProfile%/Desktop
 ```
 And clone it there so you can easily delete it after. The first time you will have to confirm, type `yes`
 ```powershell
