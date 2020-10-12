@@ -49,7 +49,7 @@ C:\Users\(your user)/.ssh/id_ed25519
 ```
 It might ask you to make a password for the file, I personally leave it blank.
 
-It should have generated a file `C:\Users\(your user)/.ssh/id_ed25519.pub`. Navigate to it, open it and copy the keygen from the generated file.
+It should have generated a file `C:\Users\(your user)/.ssh/id_ed25519.pub`. Navigate to it, open it with notepad or something and copy the keygen from the generated file.
 The keygen should be 1 line and begin with 'ssh-ed25519'
 Paste the keygen into github: https://github.com/settings/ssh/new
 Call the title whatever you want.
