@@ -46,9 +46,9 @@ git config --global --list
 
 Generate a git ssh keygen to link to your github:
 
-Replace "<comment>" with whatever you want (ie: "Work laptop")
+Replace "comment" with whatever you want (ie: "Work laptop")
 ```powershell
-ssh-keygen -t ed25519 -C "<comment>"
+ssh-keygen -t ed25519 -C "comment"
 ```
 
 It might ask you to enter which file to save the keygen in. DO NOT TYPE ANYTHING, just press enter, and it will generate a file for you.
