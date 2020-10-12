@@ -120,6 +120,7 @@ A notepad should open up. Add these lines to the notepad and save:
 Import-Module posh-git -DisableNameChecking
 Import-Module oh-my-posh -DisableNameChecking
 Set-Theme RobbyRussell
+function home { cd ~ }
 function desktop { cd ~/Desktop }
 function documents { cd ~/Documents }
 function downloads { cd ~/Downloads }
@@ -132,10 +133,23 @@ I added functions to quick-travel between places in the command line, feel free 
 You can also choose a different theme than RobbyRussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`.
 
-If you like RobbyRussell like I do but would rather see the file path, you can easily include that in the theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.487\Themes` and open `robbyrussel.psm1` and where you see `$drive =` change that line to:
+If you like RobbyRussell like I do but would rather see the file path, you can easily include that in the theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.487\Themes` and open `robbyrussel.psm1` and change this:
 ```
-$drive = "$(Split-Path -path $pwd)\$(Split-Path -path $pwd -Leaf)"
+   # Writes the drive portion
+    $drive = $sl.PromptSymbols.HomeSymbol
+    if ($pwd.Path -ne $HOME) {
+        $drive = "$(Split-Path -path $pwd -Leaf)"
+    }
+    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
 ```
+to this:
+```
+    # Writes the drive portion
+    $drive = "$($pwd)"
+    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
+```
+Yes I know it removes a lot of lines, but trust me :)
+
 
 ## Visual Studio Code
 
