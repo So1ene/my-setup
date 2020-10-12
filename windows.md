@@ -149,7 +149,13 @@ If you like RobbyRussell like I do but would rather see the whole file path inst
 to this:
 ```
     # Writes the drive portion
-    $drive = "$($pwd)"
+    $drive = Get-FullPath -dir $pwd
+    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
+```
+OR this (if you DON'T want it to replace home user directory with `~` , and you want the FULL path instead)
+```
+    # Writes the drive portion
+    $drive = $pwd
     $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
 ```
 Yes I know it removes a lot of lines, but trust me :)
