@@ -26,6 +26,8 @@ ssh -V
 
 Configure your git information:
 (Change 'Firstname' and 'Lastname' to your name)
+
+This is used by git to track who made what changes, etc.
 ```powershell
 git config --global user.name "Firstname Lastname"
 ```
