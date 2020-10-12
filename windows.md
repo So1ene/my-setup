@@ -104,7 +104,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```powershell
 Install-Module posh-git -Scope CurrentUser
 ```
-Type Y for yes
+Type Y for yes twice
 ```powershell
 Install-Module oh-my-posh -Scope CurrentUser
 ```
