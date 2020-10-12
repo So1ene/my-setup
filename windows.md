@@ -123,7 +123,6 @@ Set-Theme RobbyRussell
 function desktop { cd ~/Desktop }
 function documents { cd ~/Documents }
 function downloads { cd ~/Downloads }
-function wamp { cd C:\wamp64\www }
 clear
 ```
 Restart your terminal
