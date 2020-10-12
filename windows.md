@@ -124,7 +124,7 @@ clear
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
 
-I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `home` and you will be sent to your user directory.
+I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `desktop` and you will easily change directory to your desktop.
 
 
 ## Visual Studio Code
