@@ -42,6 +42,12 @@ Generate a git ssh keygen to link to your github
 ```powershell
 ssh-keygen -t ed25519 -C "<comment>"
 ```
+
+It might ask you to enter which file to save the keygen in. Type: 
+```powershell
+id_ed25519.pub
+```
+It might ask you to make a password for the file, you can if you want, I personally leave it blank.
 It should have generated a file `C:\Users\(your user)/.ssh/id_ed25519.pub`. Navigate to it, open it and copy the keygen from the generated file.
 The keygen should be 1 line and begin with 'ssh-ed25519'
 Paste the keygen into github: https://github.com/settings/ssh/new
