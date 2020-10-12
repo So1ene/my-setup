@@ -128,7 +128,10 @@ clear
 ```
 Restart your terminal
 
-I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `desktop` and you will easily change directory to your desktop.
+I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `desktop` and you will easily change directory to your desktop. For example, I work with WAMP and I would like a shortcut to the WAMP `www` folder, so I open the profile with `notepad $PROFILE` and add this line before `clear`:
+```
+function wamp { cd C:/wamp64/www }
+```
 
 You can also choose a different theme than RobbyRussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`.
