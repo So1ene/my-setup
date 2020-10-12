@@ -115,8 +115,8 @@ Import-Module posh-git -DisableNameChecking
 Import-Module oh-my-posh -DisableNameChecking
 Set-Theme Robbyrussell
 function home { cd ~ }
-function desktop { cd ~/desktop }
-function documents { cd ~/documents }
+function desktop { cd ~/Desktop }
+function documents { cd ~/Documents }
 function wamp { cd C:\wamp64\www }
 clear
 ```
