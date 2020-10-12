@@ -128,7 +128,7 @@ clear
 ```
 Restart your terminal
 
-I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type "`desktop`" and you will easily change directory to your desktop. For example, I work with WAMP and I would like a shortcut to the WAMP `www` folder, so I open the profile with `notepad $PROFILE` and add this line before `clear`:
+I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type "`desktop`" and you will easily change directory to your desktop from anywhere. For example, I work with WAMP and I would like a shortcut to the WAMP `www` folder which is a pain to navigate to, so I open the profile with `notepad $PROFILE` and add this line before `clear`:
 ```
 function wamp { cd C:/wamp64/www }
 ```
