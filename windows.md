@@ -91,7 +91,7 @@ Open windows terminal **as administator**.
 
 Run these commands:
 ```powershell
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
 ```powershell
 Install-Module posh-git -Scope CurrentUser
