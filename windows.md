@@ -129,7 +129,7 @@ clear
 Restart your terminal
 
 You can also choose a different theme than RobbyRussell, but that is my favorite. I also really like 'Pure' and recommend it if you want to see the file path.
-Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
+Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`
 
 I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `desktop` and you will easily change directory to your desktop.
 
