@@ -90,11 +90,11 @@ I use oh-my-posh! It's a windows version of oh-my-zsh, this will make your windo
 Open windows terminal **as administator**.
 
 Run these commands:
+
+(Don't worry we will set the ExecutionPolicy back to Restricted after)
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-(Don't worry we will set the ExecutionPolicy back to Restricted after)
-
 ```powershell
 Install-Module posh-git -Scope CurrentUser
 ```
