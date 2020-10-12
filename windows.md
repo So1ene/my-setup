@@ -31,7 +31,7 @@ git config --global user.name "Firstname Lastname"
 ```
 (Change to your email)
 ```powershell
-git config --global user.email solene.duprat@gmail.com
+git config --global user.email typeyouremail@email.com
 ```
 Double check the above information and change again if needed:
 ```powershell
