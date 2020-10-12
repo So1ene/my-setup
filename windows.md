@@ -128,11 +128,15 @@ clear
 ```
 Restart your terminal
 
-You can also choose a different theme than RobbyRussell, but that is my favorite. I also really like 'Pure' and recommend it if you want to see the file path.
-Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`
-
 I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `desktop` and you will easily change directory to your desktop.
 
+You can also choose a different theme than RobbyRussell, but that is my favorite. 
+Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`.
+
+If you like RobbyRussell like I do but would rather see the file path, you can easily include that in the theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.487\Themes` and open `robbyrussel.psm1` and where you see `$drive =` change that to:
+```
+$drive = "$(Split-Path -path $pwd)\$(Split-Path -path $pwd -Leaf)"
+```
 
 ## Visual Studio Code
 
