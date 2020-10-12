@@ -120,8 +120,9 @@ A notepad should open up. Add these lines to the notepad and save:
 Import-Module posh-git -DisableNameChecking
 Import-Module oh-my-posh -DisableNameChecking
 Set-Theme RobbyRussell
-function desktop { cd $env:USERPROFILE/Desktop }
-function documents { cd $env:USERPROFILE/Documents }
+function desktop { cd ~/Desktop }
+function documents { cd ~/Documents }
+function downloads { cd ~/Downloads }
 function wamp { cd C:\wamp64\www }
 clear
 ```
