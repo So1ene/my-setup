@@ -61,7 +61,7 @@ Paste the keygen into github: https://github.com/settings/ssh/new
 Call the title whatever you want.
 
 You can now test it by cloning a repository, go to any github repo and copy the SSH of the repo. (For example, this one is `git@github.com:So1ene/my-setup.git`)
-Navigate to your desktop 
+Navigate to your desktop in powershell:
 ```powershell
 cd ~/Desktop
 ```
