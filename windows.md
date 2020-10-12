@@ -26,10 +26,9 @@ ssh -V
 
 Congratulations, you now have simple bash commands like `cd`, `ls`, `pwd`, `cat`, `find`...
 
-Configure your git information:
+Next, configure your git information. This is used by git to track who made what changes, etc.
 (Change 'Firstname' and 'Lastname' to your name)
 
-This is used by git to track who made what changes, etc.
 ```powershell
 git config --global user.name "Firstname Lastname"
 ```
