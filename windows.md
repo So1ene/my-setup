@@ -91,7 +91,6 @@ Open windows terminal **as administator**.
 
 Run these commands:
 
-(Don't worry we will set the ExecutionPolicy back to Restricted after)
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -124,11 +123,7 @@ function documents { cd ~/Documents }
 function wamp { cd C:\wamp64\www }
 clear
 ```
-Restart your terminal (as administrator)
-
-```powershell
-powershell -ep Bypass ~\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
-```
+Restart your terminal
 
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
