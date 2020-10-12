@@ -54,7 +54,7 @@ The keygen should be 1 line and begin with 'ssh-ed25519'
 Paste the keygen into github: https://github.com/settings/ssh/new
 Call the title whatever you want.
 
-You can now test it by cloning a repository, go to any github repo and copy the SSH key. 
+You can now test it by cloning a repository, go to any github repo and copy the SSH of the repo. 
 ```powershell
 git clone <paste SSH KEY>
 ```
