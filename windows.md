@@ -24,6 +24,8 @@ git --version
 ssh -V
 ```
 
+Congratulations, you now have simple bash commands like `cd`, `ls`, `pwd`, `cat`, `find`...
+
 Configure your git information:
 (Change 'Firstname' and 'Lastname' to your name)
 
