@@ -152,7 +152,7 @@ to this:
     $drive = Get-FullPath -dir $pwd
     $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
 ```
-OR this (if you DON'T want it to replace home user directory with `~` , and you want the FULL path instead)
+OR this if you DON'T want it to replace home user directory with `~` , and you want the FULL path instead (like C:/User/ etc):
 ```
     # Writes the drive portion
     $drive = $pwd
