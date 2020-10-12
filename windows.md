@@ -132,6 +132,7 @@ I added functions to quick-travel between places in the command line, feel free 
 ```
 function wamp { cd C:/wamp64/www }
 ```
+That way I can simply type "wamp" and it will navigate me to that folder.
 
 You can also choose a different theme than RobbyRussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`.
