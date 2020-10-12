@@ -103,6 +103,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 ```powershell
 Set-Prompt
 ```
+Your terminal will look weird for a while.
 ```powershell
 if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
 ```
@@ -121,6 +122,7 @@ function documents { cd ~/Documents }
 function wamp { cd C:\wamp64\www }
 clear
 ```
+Restart your terminal.
 
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
