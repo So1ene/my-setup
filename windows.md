@@ -12,6 +12,8 @@ If you run into any issues, update to the latest version of windows, including '
 
 ## Git and GitHub
 
+Make sure you have a github account
+
 Download and install git bash for windows: https://gitforwindows.org/
 I personally keep all the default settings, except I uncheck 'Git GUI' because I never use it, I only use git via the command line. You can keep it checked and use the GUI if you want.
 
@@ -33,7 +35,7 @@ Change 'Firstname' and 'Lastname' to your name:
 ```powershell
 git config --global user.name "Firstname Lastname"
 ```
-Change to your email:
+Change to the email of your github account:
 ```powershell
 git config --global user.email typeyouremail@email.com
 ```
