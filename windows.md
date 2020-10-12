@@ -45,7 +45,7 @@ ssh-keygen -t ed25519 -C "<comment>"
 
 It might ask you to enter which file to save the keygen in. Type: 
 ```powershell
-id_ed25519
+~/.ssh/id_ed25519
 ```
 It might ask you to make a password for the file, you can if you want, I personally leave it blank.
 
