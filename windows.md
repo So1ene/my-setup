@@ -55,7 +55,7 @@ Call the title whatever you want.
 You can now test it by cloning a repository, go to any github repo and copy the SSH of the repo. (For example, this one is `git@github.com:So1ene/my-setup.git`)
 Navigate to your desktop 
 ```powershell
-cd %UserProfile%/Desktop
+cd C:/%UserProfile%/Desktop
 ```
 And clone it there so you can easily delete it after. The first time you will have to confirm, type `yes`
 ```powershell
@@ -77,7 +77,7 @@ You can also change the starting directory if you like. I set mine to my work fo
     "name": "Windows PowerShell",
     "commandline": "powershell.exe -noLogo",
     "hidden": false,
-    "startingDirectory": "%UserProfile%/Documents"
+    "startingDirectory": "C:/%UserProfile%/Documents"
 },
 ```
 Save the file and close.
