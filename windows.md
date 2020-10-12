@@ -114,11 +114,17 @@ A notepad should open up. Add these lines to the notepad and save:
 Import-Module posh-git -DisableNameChecking
 Import-Module oh-my-posh -DisableNameChecking
 Set-Theme Robbyrussell
+function home { cd ~ }
+function desktop { cd ~/desktop }
+function documents { cd ~/documents }
+function wamp { cd C:\wamp64\www }
 clear
 ```
 
 You can also choose a different theme than Robbyrussell, but that is my favorite. 
 Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh
+
+I added functions to quick-travel between places in the command line, feel free to add your own. That way you can just type `home` and you will be sent to your user directory.
 
 
 ## Visual Studio Code
