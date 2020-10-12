@@ -42,7 +42,7 @@ Double check the above information and change again if needed:
 git config --global --list
 ```
 
-Generate a git ssh keygen to link to your github
+Generate a git ssh keygen to link to your github:
 ```powershell
 ssh-keygen -t ed25519 -C "<comment>"
 ```
