@@ -7,9 +7,12 @@
 
 </details>
 
+<hr />
 
 <details>
   <summary>👉&nbsp;&nbsp;Using powershell 👈</summary>
+  
+## Using Powershell
 
 ## Table of Contents:
 
