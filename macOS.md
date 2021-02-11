@@ -1,4 +1,4 @@
-# Setup instructions
+# MacOS setup instructions
 
 - Text editor
 - Package manager
@@ -160,7 +160,7 @@ A text editor is one of the most important tools of a developer. Go to [this pag
 
 Sublime Text is free without any time limitation but a popup will appear every ten saves to remind you there is a license to buy. You can hit `Esc` when this happens, but feel free to buy Sublime Text if you really like this one (there are alternatives).
 
-Again, make sure that Sublime Text is there, not in the disk image you downloaded. To make sure it's correct, once Sublime Text is installed, unmount the "Sublime Text 3" disk in the left panel of Finder. Finder will complain if something went wrong. Ask a teacher.
+Again, make sure that Sublime Text is there, not in the disk image you downloaded. To make sure it's correct, once Sublime Text is installed, unmount the "Sublime Text 3" disk in the left panel of Finder. Finder will complain if something went wrong.
 
 
 
@@ -189,7 +189,6 @@ You should see something like this:
 
 ![](images/on-my-zsh.png)
 
-If not, **stop right away** and call a teacher.
 
 On Mac, open `Terminal > Preferences` and set the "Pro" theme as default in `Profiles` (*`Réglages`* in French).
 
@@ -276,7 +275,7 @@ This is the expected result:
 
 &nbsp;&nbsp;&nbsp; :white_check_mark: If you got this message, the keys were added successfully!
 
-&nbsp;&nbsp;&nbsp; :x: If you encountered an error, you will have to try again. Do not hesitate to *contact a teacher*.
+&nbsp;&nbsp;&nbsp; :x: If you encountered an error, you will have to try again.
 
 
 ---
@@ -332,7 +331,7 @@ To check that you are properly connected, type:
 gh auth status
 ```
 
-If you get `Logged in to github.com as <YOUR USERNAME> `, then all good. If not, **ask a teacher**.
+If you get `Logged in to github.com as <YOUR USERNAME> `, then all good.
 
 Then run the following configuration line:
 
@@ -506,7 +505,7 @@ Then **restart** your Terminal again (close it and reopen it).
 ruby -v
 ```
 
-You should see something starting with `ruby 2.6.6p`. If not, ask a teacher.
+You should see something starting with `ruby 2.6.6p`.
 
 ## Installing some gems
 
@@ -569,7 +568,7 @@ Restart your terminal and run the following:
 ```bash
 nvm -v
 ```
-You should see a version. If not, ask a teacher.
+You should see a version.
 
 Now let's install node:
 
@@ -583,7 +582,7 @@ When the command returns, run
 node -v
 ```
 
-You should see `v14.15.0`. If not, ask a teacher.
+You should see `v14.15.0`.
 
 
 ## PostgreSQL
