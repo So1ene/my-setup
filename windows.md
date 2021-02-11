@@ -1,3 +1,13 @@
+<details>
+  <summary>👉&nbsp;&nbsp;Using Windows Linux Subsystem (WSL) 👈</summary>
+
+  Coming Soon
+
+</details>
+
+
+<details>
+  <summary>👉&nbsp;&nbsp;Using powershell 👈</summary>
 # My Windows Web Development Setup
 
 Table of Contents:
@@ -204,3 +214,6 @@ If you click on new terminal, a powershell terminal will appear with the same st
 
 
 You are now ready to code! You can click on the leftmost icons to travel between 'files', 'search', 'source control' (this is git! you can view your changes here), 'run' (you can run scripts etc, never used it personally), and 'extensions'.
+
+
+</details>

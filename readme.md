@@ -4,11 +4,11 @@ Choose an operating system:
 
 <table>
   <tr>
-    <!-- <td>
+    <td>
       <a href="macOS.md">
         <img src="images/apple.png" alt="macOS" />
       </a>
-    </td> -->
+    </td>
     <td>
       <a href="linux.md">
         <img src="images/linux.png" alt="Ubuntu" />
