@@ -1,5 +1,5 @@
 
-## Wordpress
+## Wordpress (Windows)
 
 Creating a new project:
 
