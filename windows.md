@@ -1,3 +1,5 @@
+# My Windows Web Development Setup
+
 <details>
   <summary>👉&nbsp;&nbsp;Using Windows Linux Subsystem (WSL) 👈</summary>
 
@@ -8,7 +10,6 @@
 
 <details>
   <summary>👉&nbsp;&nbsp;Using powershell 👈</summary>
-# My Windows Web Development Setup
 
 Table of Contents:
 
