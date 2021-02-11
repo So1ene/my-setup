@@ -2,7 +2,8 @@
 
 <details>
   <summary>👉&nbsp;&nbsp;Using Windows Linux Subsystem (WSL) 👈</summary>
-
+&nbsp;
+&nbsp;
   Coming Soon
 
 </details>
@@ -10,7 +11,8 @@
 
 <details>
   <summary>👉&nbsp;&nbsp;Using powershell 👈</summary>
-
+&nbsp;
+&nbsp;
 Table of Contents:
 
 - Git and GitHub
