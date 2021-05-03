@@ -94,7 +94,7 @@ Save settings and close.
 ## Fancy your Terminal
 
 I use oh-my-posh! It's a windows version of oh-my-zsh, this will make your windows terminal look like linux zsh terminal!
-
+https://ohmyposh.dev/docs/pwsh
 Open windows terminal **as administator**.
 
 Run these commands:
