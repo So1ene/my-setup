@@ -196,7 +196,7 @@ Here are the extentions I use as a web developer:
 
 Restart VS Code.
 
-Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Click 'edit in settings.json' and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. 
+Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Look for `Live Sass Compile › Settings: Formats` and click'edit in settings.json'. and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. 
 We also want browser support, so look for `liveSassCompile.settings.autoprefix` and change it to this:
 ```
 "liveSassCompile.settings.autoprefix": [
