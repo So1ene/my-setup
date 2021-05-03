@@ -173,16 +173,26 @@ You can also mess around with colors etc while you're in there if you want. I pe
 I use Visual Studio Code because it has a built-in terminal and lots of really amazing extensions.
 
 1. Download [Visual Studio Code](https://code.visualstudio.com/download) 
-2. Download and install useful extensions:
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Sublime Text Keymapping](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-- [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
-- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+2. Download and install useful extensions
+
+Here are the extentions I use as a web developer:
+- Dark theme:
+[An Old Hope Theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode)
+- Light theme just in case: 
+[Newbie Light Color Theme](https://marketplace.visualstudio.com/items?itemName=lunakoly.newbie-light-color-theme)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [CSS Class Name Completion](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-- [My favorite theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode)
-- [My 2nd favorite theme](https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized)
+- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+- [ERB Helper Tags](https://marketplace.visualstudio.com/items?itemName=rayhanw.erb-helpers)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+- [Pytho](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Ruby on Rails](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
+- [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
+- [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+
 
 Restart VS Code.
 
