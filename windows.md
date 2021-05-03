@@ -110,7 +110,7 @@ Type Y for yes twice
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 ```powershell
-Set-Prompt
+Set-PoshPrompt
 ```
 Your terminal will look weird for a while.
 ```powershell
