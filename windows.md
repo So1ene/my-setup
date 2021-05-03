@@ -19,10 +19,12 @@ If you run into any issues, update to the latest version of windows, including '
 
 ## Git and GitHub
 
+Download and install VS Code
+
 Make sure you have a github account
 
 Download and install git bash for windows: https://gitforwindows.org/
-I personally keep all the default settings, except I uncheck 'Git GUI' because I never use it, I only use git via the command line. You can keep it checked and use the GUI if you want.
+I personally keep all the default settings, except I uncheck 'Git GUI' because I never use it, I only use git via the command line. You can keep it checked and use the GUI if you want. Set the IDE to VS Code
 
 Run Powershell **as administrator**, type the following commands.
 
