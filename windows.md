@@ -196,19 +196,20 @@ Here are the extentions I use as a web developer:
 
 Restart VS Code.
 
-Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Look for `Live Sass Compile › Settings: Formats` and click'edit in settings.json'. and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. 
-We also want browser support, so look for `liveSassCompile.settings.autoprefix` and change it to this:
+Press `Ctrl ,` to go to settings, click extensions and click "Live sass compiler". Look for `Live Sass Compile › Settings: Formats` and click 'edit in settings.json' and change the save path to `"savePath": "~/.."` This will save the css file outside of the sass folder, wherever you place it. 
+We also want browser support, so Look for `Live Sass Compile › Settings: Autoprefix` and click 'edit in settings.json' and look for `liveSassCompile.settings.autoprefix` and change it to this:
 ```
 "liveSassCompile.settings.autoprefix": [
     "defaults",
     "> 1%",
     "last 2 versions"
-],
+]
 ```
 Save the file and close it.
-On the bottom of the window there is a 'Watch Sass' button, whenever you are coding in sass/scss you can compile it live by clicking on that button.
 
-Press `Ctrl ,` to go to settings, type 'php' in the search bar and look for `PHP › Validate: Executable Path` and click'edit in settings.json'.
+Now when you open a scss or sass file, on the bottom of the VS Code window there will be a 'Watch Sass' button, whenever you are coding in sass/scss you can compile it live by clicking on that button.
+
+Press `Ctrl ,` to go to settings, type 'php' in the search bar and look for `PHP › Validate: Executable Path` and click 'edit in settings.json'.
 Add in the path to php.exe (mine is `C:/wamp64/bin/php/php7.4.9/php.exe`)
 
 Press `Ctrl K` then `Ctrl T` and it will open a list of your installed themes. Cycle through them with the arrow keys and choose one that you like!
