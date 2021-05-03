@@ -85,11 +85,10 @@ Here are some useful git commands if you ever feel stuck: https://dzone.com/arti
 
 Download and install Windows Terminal from the Microsoft Store
 
-Open it then click on the arrow next to the tab and you should see "Settings". Hold down the ALT key and click on "Settings" and it should open a .JSON file in VSCode. Find the line that contains 'commandline' and 'powershell.exe' and add a space followed by '-noLogo' so that the line probably looks like this 
-`"commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noLogo",`
+Open it then click on the arrow next to the tab and you should see "Settings". Click on that, then on the left you should see 'profiles' click on the first one (Windows Powershell) and in the field called 'command line' add `-noLogo` so that it looks like this `powershell.exe  -noLogo`.
 
 You can also change the starting directory if you like. I set mine to my work folder so that it is much easier to use every day. `"startingDirectory": "C:/whatever/you/want"`.
-Save the file and close.
+Save settings and close.
 
 
 ## Fancy your Terminal
