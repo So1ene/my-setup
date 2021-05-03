@@ -142,28 +142,30 @@ That way I can simply type "wamp" and it will navigate me to that folder.
 You can also choose a different theme than RobbyRussell, but that is my favorite. 
 Browse themes here: https://ohmyposh.dev/docs/themes/
 
-If you like the RobbyRussell theme like I do but would rather see the whole file path instead of just the current folder name, you can easily change that in theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\`, open the version folder, open the Themes folder, and then open the file `robbyrussel.psm1` and change this:
+If you like the RobbyRussell theme like I do but would rather see the whole file path instead of just the current folder name, you can easily change that in theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\`, open the version folder, open the Themes folder, and then open the file `robbyrussel.omp.json` with VSCode and change this:
 ```
-# Writes the drive portion
-    $drive = $sl.PromptSymbols.HomeSymbol
-    if ($pwd.Path -ne $HOME) {
-        $drive = "$(Split-Path -path $pwd -Leaf)"
-    }
-    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#56B6C2",
+          "properties": {
+            "style": "folder"
+          }
+        },
 ```
 to this:
 ```
-    # Writes the drive portion
-    $drive = Get-FullPath -dir $pwd
-    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#56B6C2",
+          "properties": {
+            "style": "full"
+          }
+        },
 ```
-OR this if you DON'T want it to replace home user directory with `~` , and you want the FULL path instead (like C:/User/ etc):
-```
-    # Writes the drive portion
-    $drive = $pwd
-    $prompt += Write-Prompt -Object $drive -ForegroundColor $sl.Colors.DriveForegroundColor
-```
-Yes I know it removes a lot of lines, but trust me :)
+
+You can also mess around with colors etc while you're in there if you want. I personally love the default colors of that theme.
 
 
 ## Visual Studio Code
