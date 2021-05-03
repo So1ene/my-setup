@@ -140,7 +140,7 @@ function wamp { cd C:/wamp64/www }
 That way I can simply type "wamp" and it will navigate me to that folder.
 
 You can also choose a different theme than RobbyRussell, but that is my favorite. 
-Browse themes here: https://github.com/JanDeDobbeleer/oh-my-posh or with `Set-Theme`.
+Browse themes here: https://ohmyposh.dev/docs/themes/
 
 If you like the RobbyRussell theme like I do but would rather see the whole file path instead of just the current folder name, you can easily change that in theme setting, navigate to `%UserProfile%\Documents\WindowsPowerShell\Modules\oh-my-posh\`, open the version folder, open the Themes folder, and then open the file `robbyrussel.psm1` and change this:
 ```
