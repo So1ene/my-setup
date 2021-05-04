@@ -23,7 +23,8 @@ Download and install VS Code
 
 Make sure you have a github account
 
-Download and install git bash for windows: https://gitforwindows.org/
+Download and install git bash for windows: https://gitforwindows.org/ 
+This will let you clone etc using SSH. 
 I personally keep all the default settings, except I uncheck 'Git GUI' because I never use it, I only use git via the command line. You can keep it checked and use the GUI if you want. Set the IDE to VS Code
 
 Run Powershell **as administrator**, type the following commands.
@@ -79,6 +80,12 @@ And clone it there so you can easily delete it after. The first time you will ha
 git clone <paste SSH KEY>
 ```
 Here are some useful git commands if you ever feel stuck: https://dzone.com/articles/top-20-git-commands-with-examples
+
+Now that you can use git on your command line using SSH, you should now also get the github CLI because it is better in general.
+https://cli.github.com/
+
+All you have to do is install it from the link above and do `gh auth login` in your terminal and follow the instructions.
+
 
 
 ## Windows Terminal
