@@ -6,7 +6,7 @@ Choose an operating system:
   <tr>
     <td>
       <a href="windows.md">
-        <img src="images/windows.png" alt="Windows">
+         Windows
       </a>
     </td>
   </tr>
