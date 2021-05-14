@@ -7,6 +7,8 @@
 - Windows Terminal
 - Fancy your Terminal
 - Visual Studio Code
+- Node and npm
+- Ruby
 
 If you run into any issues, update to the latest version of windows, including 'optional' updates. If you still have issues, contact me!
 
@@ -177,10 +179,11 @@ I use Visual Studio Code because it has a built-in terminal and lots of really a
 2. Download and install useful extensions
 
 Here are the extentions I use as a web developer:
-- Dark theme:
+- Dark themes:
 [An Old Hope Theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode)
-- Light theme just in case: 
+- Light themes: 
 [Newbie Light Color Theme](https://marketplace.visualstudio.com/items?itemName=lunakoly.newbie-light-color-theme)
+[Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 - [ERB Helper Tags](https://marketplace.visualstudio.com/items?itemName=rayhanw.erb-helpers)
@@ -193,7 +196,8 @@ Here are the extentions I use as a web developer:
 - [Ruby on Rails](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
 - [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 - [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-
+- [Ruby Rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop)
+^ This one will show errors for a while, we will fix those later.
 
 Restart VS Code.
 
@@ -218,4 +222,60 @@ Press `Ctrl K` then `Ctrl T` and it will open a list of your installed themes. C
 In VS Code if you click on 'new terminal', a powershell terminal will appear with the same styling that you set up. Cool feature right?
 
 
-You are now ready to code! You can click on the leftmost icons to travel between 'files', 'search', 'source control' (this is git! you can view your changes here), 'run', and 'extensions'.
+## Node and npm
+
+Download and install Node for Windows
+https://nodejs.org/en/download/
+
+Restart your terminal
+
+Make sure it's installed correctly, use the 2 commands below, you should see a version number.
+`node -v`
+`npm -v`
+
+## Ruby
+
+Download and install Ruby for Windows
+https://rubyinstaller.org/downloads/
+
+Restart your terminal
+
+Make sure it's installed correctly, use the commands below, you should see a version number.
+`ruby -v`
+
+Now install Rubocop
+`gem install rubocop`
+
+then go into your home directory
+
+```powershell
+cd ~/
+```
+
+Look for a folder called '.config' and navigate to it
+
+```powershell
+cd .config
+```
+
+(If it doesn't exist, make the folder with `mkdir .config`)
+
+in the .config folder, make a new folder called rubocop
+
+```powershell
+mkdir rubocop
+```
+
+and make a new file called `config.yml`
+
+```powershell
+touch config.yml
+```
+
+Open the file in VSCode `Code .` and then put these lines inside the file:
+```
+Style/FrozenStringLiteralComment:
+  Enabled: false
+```
+
+You are now ready to code! On VSCode you can click on the leftmost icons to travel between 'files', 'search', 'source control' (this is git! you can view your changes here), 'run', and 'extensions'.
