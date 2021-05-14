@@ -13,9 +13,9 @@ If you run into any issues, update to the latest version of windows, including '
 
 ## Git and GitHub
 
-Download and install VS Code
+Download and install VS Code: https://code.visualstudio.com/docs/?dv=win
 
-Make sure you have a github account
+Make sure you have a gitHub account: https://github.com/
 
 Download and install git bash for windows: https://gitforwindows.org/ 
 This will let you clone etc using SSH. 
