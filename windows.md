@@ -266,7 +266,7 @@ in the .config folder, make a new folder called rubocop
 mkdir rubocop
 ```
 
-and make a new file called `config.yml`
+and in the folder `~/.config/rubocop` make a new file called `config.yml`
 
 ```powershell
 touch config.yml
