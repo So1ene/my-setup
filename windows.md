@@ -258,7 +258,7 @@ Look for a folder called '.config' and navigate to it
 cd .config
 ```
 
-(If it doesn't exist, make the folder with `mkdir .config`)
+(If it doesn't exist, make the folder `mkdir .config`)
 
 in the .config folder, make a new folder called rubocop
 
