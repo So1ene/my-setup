@@ -80,7 +80,7 @@ Here are some useful git commands if you ever feel stuck: https://dzone.com/arti
 Now that you can use git on your command line using SSH, you should now also get the github CLI because it is better in general.
 https://cli.github.com/
 
-All you have to do is install it from the link above and do `gh auth login` in your terminal and follow the instructions.
+All you have to do is install it from the link above, restart your powershell, and do `gh auth login` in your terminal and follow the instructions.
 
 
 
